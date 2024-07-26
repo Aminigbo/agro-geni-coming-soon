@@ -152,8 +152,8 @@ header{
 
 header img{
   width: 13%;
-  height: 55%;
-  object-fit: cover;
+  height: 58%;
+  object-fit: contain;
 }
 
 .main .main-c{
@@ -260,6 +260,9 @@ header img{
   .main .main-c .form{
     width: 70%;
   }
+  .main .main-c h1{
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -293,6 +296,9 @@ header img{
   }
   .main .main-c .form{
     width: 100%;
+  }
+  .main .main-c h1{
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 400px){
