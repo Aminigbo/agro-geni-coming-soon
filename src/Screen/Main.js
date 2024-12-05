@@ -7,7 +7,7 @@ import { Supabase } from "../config/supabase-config";
 const Main = () => {
   const calculateTimeLeft = () => {
     // Use ISO 8601 format (YYYY-MM-DDTHH:MM:SSZ) for the date
-    const difference = +new Date("2024-11-15T00:00:00Z") - +new Date();
+    const difference = +new Date("2025-01-06T00:00:00Z") - +new Date();
     
     let timeLeft = {};
 
